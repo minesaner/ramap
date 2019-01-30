@@ -1,0 +1,41 @@
+{
+  "name": "ramap",
+  "version": "0.1.0",
+  "description": "AMap for react",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ramap",
+    "amap",
+    "react amap"
+  ],
+  "author": "minesaner",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.10.0",
+    "eslint-config-react-app": "^3.0.5",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "react": "^16.6.3",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.0"
+  }
+}
