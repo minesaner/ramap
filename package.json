@@ -1,7 +1,7 @@
 {
   "name": "ramap",
-  "version": "0.1.1",
-  "description": "AMap for react",
+  "version": "0.1.2",
+  "description": "AMap for React",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -13,6 +13,11 @@
     "react amap"
   ],
   "author": "minesaner",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:minesaner/ramap.git"
+  },
+  "homepage": "https://github.com/minesaner/ramap",
   "license": "MIT",
   "files": [
     "index.js"
